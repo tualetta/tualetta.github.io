@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(110deg, #FFD9E8 4%, #FFD9E8 40%, #DE95BA calc(40% + 1px),
+     #DE95BA 50%, #7F4A88 calc(50% + 1px), #7F4A88 70%,
+      #4A266A calc(70% + 1px), #4A266A 100%);
+    background-blend-mode: color-dodge, overlay, difference, difference, normal;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.quiz-container{
+    background-color: #dab9d4c9;
+    border-radius:  20px 50px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+}
+
+.quiz-header{
+    padding: 3rem;
+}
+
+h2{
+    padding: 0.7rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul{
+    list-style-type: georgian;
+    padding: 1;
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    background: linear-gradient(288deg, #FFB6B9 0%, #FFB6B9 35%,
+     #FAE3D9 calc(35% + 1px), #f0d9fa 45%, #dcbbde calc(45% + 1px),
+      #d2bbde 65%, #9861c0 calc(65% + 1px), #c061c0 100%);
+    background-blend-mode: screen, screen, lighten, overlay, lighten, difference, normal;
+    background-color: #7b6d7e;
+    color: rgb(0, 0, 0);
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+}
+
+button:hover(){
+    background-color: #6c7576;
+
+}
+
+button:focus{
+    outline: none;
+    background-color: #37082e;
+    
+}

@@ -30,56 +30,64 @@ const quizData = [
         b: "2",
         c: "3",
         correct: "b",
-
+    },
+    {
         help: " ",
         question: "QUESTION 5",
         a: "1",
         b: "2",
         c: "3",
         correct: "c",
-
+    },
+    {
         help: " ",
         question: "QUESTION 6",
         a: "1",
         b: "2",
         c: "3",
         correct: "a",
-
+    },
+    {
         help: " ",
         question: "QUESTION 7",
         a: "1",
         b: "2",
         c: "3",
         correct: "a",
-
+    },
+    {    
         help: " ",
         question: "QUESTION 8",
         a: "1",
         b: "2",
         c: "3",
         correct: "b",
-
+    },
+    {
         help: " ",
         question: "QUESTION 9",
         a: "1",
         b: "2",
         c: "3",
         correct: "c",
-
+    },
+    {
         help: " ",
         question: "QUESTION 10",
         a: "1",
         b: "2",
         c: "3",
         correct: "c",
-
+    },
+    {
         help: " ",
         question: "QUESTION 11",
         a: "1",
         b: "2",
         c: "3",
         correct: "a",
-
+    },
+    {
         help: " ",
         question: "QUESTION 12",
         a: "1",

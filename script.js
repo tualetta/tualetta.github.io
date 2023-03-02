@@ -26,7 +26,7 @@ const quizData = [
     {
         help: " ",
         question: "4. Ποια ήταν συσκεύη και το μέσο που λάμβανε τις απειλές;",
-        a: "H/Υ, Instagram",
+        a: "Η/Υ, Instagram",
         b: "Κινητό Τηλέφωνο, Facebook",
         c: "Tablet, Twitter",
         correct: "b",
@@ -41,7 +41,7 @@ const quizData = [
     },
     {
         help: " ",
-        question: "6. ποσό καιρό πριν την αυτοκτονία του είχε εκδηλωθεί;",
+        question: "6. Ποσό καιρό πριν την αυτοκτονία του είχε εκδηλωθεί;",
         a: "Έναν μήνα",
         b: "Μία εβδομάδα",
         c: "Ένα χρόνο",
@@ -50,7 +50,7 @@ const quizData = [
     {
         help: " ",
         question: "7. Ποια ήταν η αιτία θανάτου του Kenneth;",
-        a: "Αυτοκτωνία",
+        a: "Αυτοκτονία",
         b: "Δολοφωνία",
         c: "Φυσικά αίτια",
         correct: "a",
@@ -126,10 +126,17 @@ submitBtn.addEventListener('click', () => {
            <h2>You answered ${score}/${quizData.length} questions correctly</h2>
 
            <h2> The correct answers were: <br>
-           b. <br>
-           c. <br>
-           a. <br>
-           b.</h2>
+           1. Kenneth Weishuhn <br>
+           2. Γυμνάσιο, South O'Brien <br>
+           3. επιθετικός, ανελέητος, συντριπτικός <br>
+           4. Κινητό Τηλέφωνο, Facebook <br>
+           5. Για την σεξουαλικότητα του <br>
+           6. Έναν μήνα <br>
+           7. Αυτοκτονία <br>
+           8. 14 <br>
+           9. Απρίλιο, 2012 <br>
+           10. Ο πατριός του <br>
+           </h2>
 
            <button onclick="location.reload()">Try Again?</button>
            `

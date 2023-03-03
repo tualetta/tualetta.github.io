@@ -2,17 +2,17 @@ const quizData = [
     {
         help: " ",
         question: "1. Ποιό είναι το όνομα του θύματος;",
-        a: "Kenny Weishuhn",
+        a: "Kenny Chambers",
         b: "Kenneth Weishuhn",
         c: "Oliver Weishuhn",
         correct: "b",
     },
     {
         help: " ",
-        question: "2. Που φοιτούσε ο Kenneth;",
-        a: "Γυμνάσιο, North O'Brien",
-        b: "Λύκειο, South O'Brien",
-        c: "Γυμνάσιο, South O'Brien",
+        question: "2. Σε τι φοιτούσε ο Kenneth;",
+        a: "Πανεπιστήμιο",
+        b: "Λύκειο",
+        c: "Γυμνάσιο",
         correct: "c",
     },
     {
@@ -52,7 +52,7 @@ const quizData = [
         question: "7. Ποια ήταν η αιτία θανάτου του Kenneth;",
         a: "Αυτοκτονία",
         b: "Δολοφωνία",
-        c: "Φυσικά αίτια",
+        c: "Ασθένεια",
         correct: "a",
     },
     {    
@@ -73,7 +73,15 @@ const quizData = [
     },
     {
         help: " ",
-        question: "10. Ποιός τον βρήκε νεκρό;",
+        question: "10. Με τι τρόπο πήρε την ζωή του;",
+        a: "Στο δωμάτιο του",
+        b: "Στο υπόγειο του σπιτιού",
+        c: "Στο γκαράζ του σπιτιού",
+        correct: "c",
+    },
+    {
+        help: " ",
+        question: "11. Ποιός τον βρήκε νεκρό;",
         a: "Η μητέρα του",
         b: "Η αδελφή του",
         c: "Ο πατριός του",
@@ -135,7 +143,8 @@ submitBtn.addEventListener('click', () => {
            7. Αυτοκτονία <br>
            8. 14 <br>
            9. Απρίλιο, 2012 <br>
-           10. Ο πατριός του <br>
+           10. Στο γκαράζ του σπιτιού <br>
+           11. Ο πατριός του <br>
            </h2>
 
            <button onclick="location.reload()">Try Again?</button>
